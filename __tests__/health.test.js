@@ -1,3 +1,6 @@
+/* eslint-env jest */
+/* global test, expect */
+
 import healthStatus from '../src/health';
 
 test('returns healthy if health > 50', () => {
